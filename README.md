@@ -8,6 +8,25 @@
 
 - Stage 2: If the player does not take away all the mole lives within the time limit, they will lose. Time limit will be 1 minute 30 seconds.
 
+## HTML
+
+- Display name of "Player" will be shown
+- There will be 12 holes
+- Every hole will come under a section
+- Add a timer section
+
+## CSS
+
+- The background will be red
+- Every hole will be the same size and colour
+- The holes will be black
+
+## JavaScript
+
+- Create a random object
+- Random function will be added for the mole
+- Put a countdown timer
+
 ## Features that woud be out of scope for Thursday
 
 - I would like to add more levels for the player to advance to (3 Levels).
