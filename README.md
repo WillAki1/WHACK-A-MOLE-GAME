@@ -6,7 +6,7 @@
 
 - Stage 1: Player can click on mole when it appears and hit it.
 
-- Stage 2: If the player does not take away all the mole lives within the time limit, they will lose. Time limit will be 1 minute 30 seconds.
+- Stage 2: If the player does not take away all the mole lives within the time limit, they will lose. Time limit will be 1 minute.
 
 ## HTML
 

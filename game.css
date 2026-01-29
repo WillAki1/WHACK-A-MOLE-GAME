@@ -1,8 +1,7 @@
 body {
   background-color: rgb(206, 36, 36);
 }
-
-.holes {
+body .holes {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -10,8 +9,7 @@ body {
   width: 600px;
   margin: 40px auto;
 }
-
-.hole {
+body .hole {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50%;
@@ -20,8 +18,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-.hole.active {
+body .hole.active {
   background-color: green;
 }
 
