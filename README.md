@@ -13,7 +13,8 @@
 - Display name of "Player" will be shown
 - There will be 12 holes
 - Every hole will come under a section
-- Add a timer section
+- Add a timer
+- Add a table
 
 ## CSS
 
@@ -26,6 +27,7 @@
 - Create a random object
 - Random function will be added for the mole
 - Put a countdown timer
+- Add click element
 
 ## Features that woud be out of scope for Thursday
 

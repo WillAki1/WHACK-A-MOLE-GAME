@@ -1,84 +1,69 @@
 body {
   background-color: rgb(206, 36, 36);
-  margin-right: 300px;
 }
 
-.Holes {
-  margin: auto;
-  width: 100%;
+.holes {
   height: 100px;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   gap: 50px;
 }
-
-.H1 {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 200px 200px 200px 200px;
-}
-
-.H2 {
+.holes__One {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H3 {
+.holes__Two {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H4 {
+.holes__Three {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H5 {
+.holes__Four {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H6 {
+.holes__Five {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H7 {
+.holes__Six {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H8 {
+.holes__Seven {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H9 {
+.holes__Eight {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H10 {
+.holes__Nine {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H11 {
+.holes__Ten {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
 }
-
-.H12 {
+.holes__Eleven {
+  border: 10px solid blue;
+  padding: 25px;
+  border-radius: 50px 50px 50px 50px;
+}
+.holes__Twelve {
   border: 10px solid blue;
   padding: 25px;
   border-radius: 50px 50px 50px 50px;
