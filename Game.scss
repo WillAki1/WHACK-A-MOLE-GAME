@@ -28,4 +28,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+.hole.active {
+  background-color: green;
+}
 //sass --watch game.scss game.css

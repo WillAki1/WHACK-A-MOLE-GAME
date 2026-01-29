@@ -21,4 +21,8 @@ body {
   justify-content: center;
 }
 
+.hole.active {
+  background-color: green;
+}
+
 /*# sourceMappingURL=game.css.map */
