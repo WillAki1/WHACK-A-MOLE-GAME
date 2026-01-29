@@ -3,35 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Whack-A-Mole</title>
     <link rel="stylesheet" href="Game.css" />
   </head>
+  <div id="board"></div>
   <body>
-    <Display id="Player 1"> Player 1 </Display>
-    <Display id="Computer"> Computer </Display>
+    <input type="button" value="Play" onclick="startGame()" ; />
+    <div id="Player 1">Player 1</div>
+    <div id="Computer">Computer</div>
+    <div id="number">0</div>
     <div class="holes">
-      <table>
-        <tr>
-          <th><one class="holes__One">Hole 1</one></th>
-          <th><two class="holes__Two">Hole 2</two></th>
-          <th><three class="holes__Three">Hole 3</three></th>
-        </tr>
-        <tr>
-          <td><four class="holes__Four">Hole 4</four></td>
-          <td><five class="holes__Five">Hole 5</five></td>
-          <td><six class="holes__Six">Hole 6</six></td>
-        </tr>
-        <tr>
-          <td><seven class="holes__Seven">Hole 7</seven></td>
-          <td><eight class="holes__Eight">Hole 8</eight></td>
-          <td><nine class="holes__Nine">Hole 9</nine></td>
-        </tr>
-        <tr>
-          <td><ten class="holes__Ten">Hole 10</ten></td>
-          <td><eleven class="holes__Eleven">Hole 11</eleven></td>
-          <td><twelve class="holes__Twelve">Hole 12</twelve></td>
-        </tr>
-      </table>
+      <div class="hole">1</div>
+      <div class="hole">2</div>
+      <div class="hole">3</div>
+      <div class="hole">4</div>
+      <div class="hole">5</div>
+      <div class="hole">6</div>
+      <div class="hole">7</div>
+      <div class="hole">8</div>
+      <div class="hole">9</div>
+      <div class="hole">10</div>
+      <div class="hole">11</div>
+      <div class="hole">12</div>
     </div>
+    <script src="game.js"></script>
   </body>
 </html>

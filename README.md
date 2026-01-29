@@ -21,6 +21,7 @@
 - The background will be red
 - Every hole will be the same size and colour
 - The holes will be black
+- Create a gameboard
 
 ## JavaScript
 

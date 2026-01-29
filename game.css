@@ -3,70 +3,22 @@ body {
 }
 
 .holes {
-  height: 100px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  width: 600px;
+  margin: 40px auto;
+}
+
+.hole {
+  border: 10px solid blue;
+  padding: 25px;
+  border-radius: 50%;
+  background-color: white;
   display: flex;
-  gap: 50px;
-}
-.holes__One {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Two {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Three {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Four {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Five {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Six {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Seven {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Eight {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Nine {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Ten {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Eleven {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
-}
-.holes__Twelve {
-  border: 10px solid blue;
-  padding: 25px;
-  border-radius: 50px 50px 50px 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=game.css.map */
